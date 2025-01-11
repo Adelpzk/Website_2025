@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/MainPage.css";
-import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope, FaInstagram } from "react-icons/fa";
 import Me from "../assets/Me.jpg";
 
 const MainPage = () => {
