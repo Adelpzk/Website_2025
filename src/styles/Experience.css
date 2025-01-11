@@ -1,0 +1,96 @@
+/* Experience Section Styles */
+.experience {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center cards in the grid */
+    gap: 2rem;
+    padding: 2rem 1rem;
+    background-color: #ffffff;
+  }
+  
+  /* Experience Card Styles */
+  .experience-card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    max-width: 600px; /* Restrict card width */
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: left; /* Ensure all content is left-aligned */
+  }
+  
+  .experience-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Logo Styling */
+  .experience-logo {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    border-radius: 50%; /* Optional for rounded logos */
+  }
+  
+  /* Details Section */
+  .experience-details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%; /* Take up full width */
+  }
+  
+  .experience-details h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin: 0;
+    color: #333;
+  }
+  
+  .experience-details p {
+    font-size: 0.95rem;
+    color: #555;
+    margin: 0;
+  }
+  
+  .experience-meta {
+    font-size: 0.85rem;
+    color: #777;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    .experience-card {
+      flex-direction: column;
+      align-items: flex-start; /* Align content to the left */
+    }
+  
+    .experience-logo {
+      margin-bottom: 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .experience-card {
+      max-width: 90%;
+      padding: 1rem;
+    }
+  
+    .experience-details h3 {
+      font-size: 1rem;
+    }
+  
+    .experience-details p {
+      font-size: 0.9rem;
+    }
+  
+    .experience-meta {
+      font-size: 0.8rem;
+    }
+  }
+  

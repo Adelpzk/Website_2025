@@ -1,0 +1,99 @@
+/* Recommendations Section */
+.recommendations {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem 1rem;
+  background-color: #ffffff;
+}
+
+/* Recommendation Card */
+.recommendation-card {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: left; /* Align all content to the left */
+}
+
+/* Recommendation Header */
+.recommendation-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Avatar */
+.recommendation-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Info Section */
+.recommendation-info h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 0;
+  color: #333;
+  text-align: left; /* Align name to the left */
+}
+
+.recommendation-info h4 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #555;
+  margin: 0.25rem 0 0.5rem;
+  text-align: left; /* Align title to the left */
+}
+
+.recommendation-info .recommendation-date {
+  font-size: 0.85rem;
+  color: #777;
+  text-align: left; /* Align date to the left */
+}
+
+.recommendation-info .recommendation-date span {
+  font-style: italic;
+}
+
+/* Recommendation Body */
+.recommendation-body {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+  text-align: left; /* Align recommendation text to the left */
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .recommendation-card {
+    padding: 1rem;
+  }
+
+  .recommendation-avatar {
+    width: 50px;
+    height: 50px;
+  }
+
+  .recommendation-info h3 {
+    font-size: 1.1rem;
+  }
+
+  .recommendation-info h4 {
+    font-size: 0.95rem;
+  }
+
+  .recommendation-info .recommendation-date {
+    font-size: 0.8rem;
+  }
+
+  .recommendation-body {
+    font-size: 0.95rem;
+  }
+}
