@@ -15,6 +15,7 @@ const experiences = [
     role: "Software Engineering Intern",
     location: "Toronto, ON, Canada",
     year: "Jan 2025 - Apr 2025",
+    team: "Canada Data Express Team"
   },
   {
     logo: theScore,
@@ -22,6 +23,7 @@ const experiences = [
     role: "Software Engineering Intern",
     location: "Toronto, ON, Canada",
     year: "Sep 2024 - Dec 2024",
+    team: "Sports Core Team"
   },
   {
     logo: Geotab,
@@ -29,6 +31,7 @@ const experiences = [
     role: "Software Developer Intern",
     location: "Waterloo, ON, Canada",
     year: "May 2023 - April 2024",
+    team: "Team fox - MyGeotab"
   },
   {
     logo: toyota,
@@ -36,6 +39,7 @@ const experiences = [
     role: "Full stack Developer Intern",
     location: "Waterloo, ON, Canada",
     year: "Sep 2022 - Dec 2022",
+    team: "Internal Logistics Team"
   },
   {
     logo: Shinydocs,
@@ -43,6 +47,7 @@ const experiences = [
     role: "Software Developer Intern",
     location: "Waterloo, ON, Canada",
     year: "Jan 2022 - April 2022",
+    team: "Cognitive Toolkit"
   },
   {
     logo: TR,
@@ -50,6 +55,7 @@ const experiences = [
     role: "Solution Architect Intern",
     location: "Toronto, ON, Canada",
     year: "Jun 2021 - Aug 2021",
+    team: "WE Accelerate team"
   },
   {
     logo: waterloo, // Replace with your image path
@@ -57,6 +63,7 @@ const experiences = [
     role: "Bachelor's of Management Engineering - 2025",
     location: "Waterloo, ON, Canada",
     year: "2020 - 2025",
+    team: "Intramural Soccers and Basketball"
   },
 ];
 
@@ -71,6 +78,7 @@ const Experience = () => {
             <p>{exp.role}</p>
             <p className="experience-meta">{exp.location}</p>
             <p className="experience-meta">{exp.year}</p>
+            <h4>{exp.team}</h4>
           </div>
         </div>
       ))}

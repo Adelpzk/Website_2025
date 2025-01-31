@@ -13,7 +13,7 @@ const projects = [
     subtitle: "JavaScript, React, NodeJS, MySQL, Jest, Cypress, Trello",
     link: "https://github.com/Adelpzk/uwScoop",
     description:
-      "Developed uwScoop, an automated ride-matching platform. Enabled users to post or request rides, utilizing smart matching algorithms, as well as requesting, inviting, messaging and notifications, allowing users to accept requests.",
+      "uwScoop is a new rideshare application exclusive to University of Waterloo Students. Rather than havingto scroll through rides that dont fit your criteria in a Facebook group, uwScoop automatically matches you with rides that fit your criteria. You meet new people along the way too! uwScoop considers your year, program and music preferences to make your ride most enjoyable",
   },
   {
     image: findwork,
@@ -21,7 +21,7 @@ const projects = [
     subtitle: "TypeScript, JavaScript, Next.js, Firebase",
     link: "https://github.com/Adelpzk/ww-findwork?tab=readme-ov-file",
     description:
-      "Developed an IDSS to streamline job search by ranking postings based on user preferences and resume similarity. \n Integrated real-time job data scraping Chrome extension and customizable ranking model, reducing student search time.",
+      "FindWork is an Intelligent Decision Support System (IDSS) designed to simplify the job search process on WaterlooWorks by helping students quickly identify the most relevant job postings. It aims to reduce the time spent on reviewing and shortlisting jobs by presenting users with opportunities that match their preferences."
   },
   {
     image: reddit,
@@ -29,7 +29,7 @@ const projects = [
     subtitle: "Golang, Python, Next.js, Redux, Redis, Firebase",
     link: "https://reddit-newsletter.vercel.app/login",
     description:
-      "Developed a reddit-summary newsletter by Leveraging Go backend for Reddit API post retrieval and email distribution, \n GPT API for summary generation, and streamlined inter-service communication via Redis queue",
+      "The Reddit Newsletter Application allows users to stay updated with the latest and hottest posts from their favorite subreddits. Users can log in via Reddit, select their preferred subreddits, and receive daily emails summarizing the top conversations and posts. This service ensures that users never miss out on important discussions and updates from the Reddit communities they care about most.",
   },
   {
     image: SE,
@@ -37,7 +37,7 @@ const projects = [
     subtitle: "Java",
     link: "https://github.com/Adelpzk/LA-Times-Search-Engine",
     description:
-      "Developed a search engine in Java for interactive retrieval of 150,000 LA Times articles using NLP techniques. Achieved sub-second retrieval times and integrated query-based snippet summaries for enhanced user experience."
+      "This search engine is designed to retrieve information from LA Times documents spanning the years 1989 and 1990. The engine incorporates query-biased snippets and showcases the top 10 search results. The Search engine was built in Java for interactive retrieval of 150,000 LA Times articles using NLP techniques."
   },
   {
     image: Distributed,
@@ -45,7 +45,7 @@ const projects = [
     subtitle: "Java, Scala, C++, Apache Thrift, Apache Spark, Apache Zookeeper, RPCs, MPI",
     link: "https://github.com/Adelpzk/Distributed-Systems-Labs",
     description:
-      "Developed and implemented distributed systems solutions, including RPCs for password hashing, big data analysis using Spark, fault tolerant key-value storage and load balancer, with Backend nodes replication for a DHT project."
+      "This Repo contains solutions to various assignments and labs completed for the ECE 454: Distributed Computing course, including RPCs for password hashing, big data analysis using Spark, fault tolerant key-value storage and load balancer, with Backend nodes replication for a DHT project."
   }
 ];
 
